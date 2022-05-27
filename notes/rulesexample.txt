@@ -1,0 +1,19 @@
+
+
+; THE GAME RULES
+# faction
+name = United States of America
+description = We the People of the United States, in Order to form a more perfect Union, 
+	| establish Justice, insure domestic Tranquility, provide for the common defense, 
+	| promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, 
+	| do ordain and establish this Constitution for the United States of America.
+bonus = 1 industry
+bonus = 1 military
+
+# unit
+name = scout
+moves = 1
+cost = 1
+land = true
+sea = false
+air = false

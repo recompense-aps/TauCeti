@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://debug/DebugStats.cs" type="Script" id=1]
+
+[node name="DebugStats" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_right = 1025.0
+margin_bottom = 40.0
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FPSLabel" type="Label" parent="HBoxContainer"]
+modulate = Color( 1, 0, 0, 1 )
+margin_left = 508.0
+margin_top = 13.0
+margin_right = 516.0
+margin_bottom = 27.0
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}

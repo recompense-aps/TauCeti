@@ -1,0 +1,20 @@
+;
+;						FACTION
+;	This file defines all the factions in the game
+;
+
+# faction 
+name = Macedonians
+color = green
+
+# faction 
+name = Ganns
+color = blue
+
+# faction 
+name = Academy
+color = gray
+
+# faction
+name = Tyrants
+color = red

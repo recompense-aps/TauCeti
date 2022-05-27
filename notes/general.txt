@@ -1,0 +1,5 @@
+Units have:
+	- Weapon
+	- Armor
+	- Abbility 1
+	- Abbility 2
